@@ -11,5 +11,4 @@ except ImportError:
 setuptools.setup(
     setup_requires=['pbr'],
     pbr=True,
-    dependency_links=['https://github.com/michaelkuty/pbr/tarball/master#egg=pbr',
-                      'https://github.com/michaelkuty/django-import-export/archive/feature/extra_fields.zip#egg=django-import-export-0.5.2.dev0'])
+    dependency_links=['https://github.com/michaelkuty/pbr/tarball/master#egg=pbr'])
